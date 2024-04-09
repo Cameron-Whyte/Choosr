@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer-visible {
+  transform: translateY(0);
+}
+  
+.footer-hidden {
+  display: none;
+}
+
+.glow:hover {
+  box-shadow: 0 0 10px #00b4d8, 0 0 40px #00b4d8, 0 0 80px #00b4d8;
+  transition: all 0.2s ease-in-out;
+}
+
+
+  
